@@ -2,14 +2,14 @@ let count = 1;
 function contador() {
   console.log(count);
 }
-contador(); // imprime 1
+contador();
 
 function miFuncion() {
   let count = 1;
   function contador() {
     console.log((count = count + 1));
   }
-  contador(); // imprime 1
+  contador();
 }
 
 miFuncion();
