@@ -1,9 +1,0 @@
-{
-    "repository": {
-        "type": "memory"
-    },
-    "data": {
-        "file": "./data/hw_200.csv",
-        "db": "./data/db.sqlite"
-    }
-}
