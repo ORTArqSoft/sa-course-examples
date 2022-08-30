@@ -1,3 +1,4 @@
+# Ejercicio
 Se requiere procesar texto de entrada con diversas palabras en donde debe realizar las siguientes transformaciones:
 
 Pasarlas a Uppercase: es decir, capitalizar cada palabra (ejemplo: software → SOFTWARE)
