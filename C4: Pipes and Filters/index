@@ -1,0 +1,19 @@
+const express = require("express");
+const { Pipeline } = require("./Pipeline");
+const { upperCase, revert } = require("./filters");
+const app = express();
+
+app.get("/transform", function (req, res) {
+  const { query } = req;
+  const { word } = query;
+
+  var pipeline = new Pipeline();
+
+  pipeline.use(upperCase);
+  pipeline.use(revert);
+
+  const data = pipeline.run(word);
+  res.send(data);
+});
+
+app.listen(3000);
