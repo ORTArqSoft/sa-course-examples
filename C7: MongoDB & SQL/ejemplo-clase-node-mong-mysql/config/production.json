@@ -1,0 +1,30 @@
+{
+  "locale": "es",
+  "db": {
+    "conectionString": "mysql://root:secret@127.0.0.1:3306/gie2022"
+  },
+  "webServer": {
+    "routes": {
+      "families_id": "/families/:id",
+      "families": "/families",
+      "categories_id": "/categories/:id",
+      "categories": "/categories",
+      "bills_id": "/bills/:id",
+      "bills": "/bills",
+      "users_id": "/users/:id",
+      "users": "/users",
+      "invites_id": "/invites/:id",
+      "invites": "/invites"
+    },
+    "port": 55311,
+    "baseUrl": "/api"
+  },
+  "paging": {
+    "defaultOffset": 0,
+    "defaultLimit": 10,
+    "maxLimit": 500
+  },
+  "configuration": {
+    "LEVEL": 2
+  }
+}

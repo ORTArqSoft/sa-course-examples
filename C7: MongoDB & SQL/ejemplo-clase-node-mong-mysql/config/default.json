@@ -1,0 +1,15 @@
+{
+  "locale": "es",
+  "webServer": {
+    "routes": {
+      "families_id": "/families/:id",
+      "families": "/families",
+      "categories_id": "/categories/:id",
+      "categories": "/categories",
+      "health_check": "/health-check",
+      "bills_id": "/bills/:id",
+      "bills": "/bills"
+    },
+    "baseUrl": "/api"
+  }
+}
