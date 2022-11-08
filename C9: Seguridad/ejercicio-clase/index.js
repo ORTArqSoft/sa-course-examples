@@ -78,6 +78,7 @@ app.get("/books", function (req, res) {
 
 app.post("/books", function (req, res) {
   const { authorization } = req.headers;
+
   const authHeader = authorization.split(" ")[1];
 
   const book = req.body;

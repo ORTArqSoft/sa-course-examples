@@ -1,0 +1,1 @@
+- Correr las apis de C8 (auth y books) con pm2. Armar un archivo de configuracion para correr ambas apis con pm2

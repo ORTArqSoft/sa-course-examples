@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "workerA",
+      "script": "./workerA.js",
+      "instances": 2,
+      "watch": true
+    },
+    {
+      "name": "workerB",
+      "script": "./workerB.js",
+      "instances": 2,
+      "watch": true
+    }
+  ]
+}
